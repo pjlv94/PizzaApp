@@ -1,1 +1,78 @@
+.contenido {
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    background: url('../../assets/fondo.png') center no-repeat;
+}
+.vacio-xl{
+    padding: 8%;
+    width: 100%;
+}
+.vacio-sm{
+    padding: 7%;
+    width: 100%;
+}
 
+.logo-contenido{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 150px;
+}
+.logo{
+    max-width: 180px;
+}
+
+.formulario
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    margin-left: -5px;
+    margin-top:25px; 
+    font-size: 30px;
+    color:#ffffff;
+    background: transparent !important;
+
+}
+ion-item {
+    --background: none;
+    opacity:1;
+  }
+
+ion-input
+  {
+      --background: transparent;
+    color:#ffff;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffffff; 
+  }
+.label-class 
+{
+    color:#ffff;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
